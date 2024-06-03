@@ -23,7 +23,7 @@ window.onload = function() {
 function randomCandy() {
     return candies[Math.floor(Math.random() * candies.length)]; //0 - 5.99
 }
-#function to start the game
+//function to start the game
 function startGame() {
     for (let r = 0; r < rows; r++) {
         let row = [];
